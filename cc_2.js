@@ -51,3 +51,22 @@ employee.position = "Team Lead";
 
 // Log the updated object to the console
 console.log("Updated Employee Record:", employee);
+// Task 4: Array of Objects
+// Customer Database
+
+// Declare an array containing at least three customer objects
+let customers = [
+    { name: "Alice Smith", email: "alice@example.com", purchaseAmount: 250 },
+    { name: "Bob Johnson", email: "bob@example.com", purchaseAmount: 150 },
+    { name: "Charlie Brown", email: "charlie@example.com", purchaseAmount: 300 },
+];
+
+// Add a new customer object to the array
+customers.push({
+    name: "Diana Prince",
+    email: "diana@example.com",
+    purchaseAmount: 400,
+});
+
+// Log the entire customer list to the console
+console.log("Customer Database:", customers);
