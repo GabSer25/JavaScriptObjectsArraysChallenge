@@ -70,3 +70,23 @@ customers.push({
 
 // Log the entire customer list to the console
 console.log("Customer Database:", customers);
+// Task 5: Object Methods
+// Order Processing System
+
+// Declare an object with properties: orderId, customerName, and amount
+let order = {
+    orderId: "ORD123",
+    customerName: "John Doe",
+    amount: 250.0,
+
+    // Add a method to calculate tax (10% tax rate)
+    calculateTax: function () {
+        return this.amount * 0.1; // 10% of the order amount
+    }
+};
+
+// Log the order details
+console.log("Order Details:", order);
+
+// Log the tax amount using the calculateTax method
+console.log("Tax Amount:", order.calculateTax());
